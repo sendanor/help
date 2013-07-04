@@ -9,18 +9,18 @@
 <body>
 	<h2>WordPress ohjelmiston asennus</h2>
 		<p>Wordpress asennus on kohtalaisen helppoa. On kuitenkin muutamia asioita jotka sinun tulee tietää ja tehdä ennen varsinaista asennusta.</p>
-		<p>Asiat jotka tulee varmistaa ennen asennusta:</p>
+		<h2>Asiat jotka tulee varmistaa ennen asennusta:</h2>
 			<p><b>1. varmista tiedostonsiirto (esimerkiksi Filezilla-ohjeemme)</b></p>
 			<p><b>2. tarvitset käyttöösi myös tekstieditorin</b></p>
 			<p><b>3. tunnukset palvelimellemme.</b></p>
-		<p>Asiat jotka tulee tehdä ennen asennusta:</p>
+		<h2>Asiat jotka tulee tehdä ennen asennusta:</h2>
 		<p><b>1. Lataa uusin WordPressin versio</b></p>
 		<p><b>2. Pura asennuspaketti johonkin kansioon koneellesi mistä saat sen kätevästi käyttöösi.</b></p>
 		<p><b>3. Varmista tietokantasi käyttäjänimi, salasana sekä tietokannan nimi</b></p>
 		<p><b>4. varmista että sinulla on paketinpurkuohjelma (esim winrar)</b></p>
-		<img src="winrar.png">
+		<img src="winrar.png" width="400" height="400">
 		
-		<p>Näiden vaiheiden jälkeen voimme aloittaa asennuksen.</p>
+		<h2>Asennus:</h2>
 		<p>Olet jo valmiiksi hakenut uusimman version WordPress-ohjelmistosta ja purkanut sen omaan hakemistoonsa omalle tietokoneellesi
 		Jos sinulla ei vielä ole tietokantaa, pyydä meitä tekemään se sinulle tai luo tietokanta itse tässä vaiheessa.</p>
 
@@ -30,12 +30,21 @@
 		
 		<p>Tämän jälkeen navigoi selaimellasi sivullesi jolloin asennusscripti suorittaa itsensä (www.esimerkki.fi/wp-admin/install.php)
 		Mikäli et ole luonut manuaalisesti config.php tiedostoa, WordPress  luo sen automaattisesti sinulta kysymiensä tietojen mukaan.</p>
-		<img src="createconfig.png" width="900" height="600">
+		<img src="createconfig.png" width="600" height="300">
 		
 		<h2>Asennuksen viimeistely:</h2>
 		
 		<p>Kun asennusskripti ajetaan, WordPress automaattisesti kysyy sinulta tiedot joita se tarvitsee.<p>
-		<img src="tietokantatiedot.png" width="900" height="600">
-		<img src="wp-tiedot.png" width="900" height="600">
+		<img src="tietokantatiedot.png" width="600" height="400">
+		<img src="wp-tiedot.png" width="600" height="400">
+		
+		<p>Joskus WordPress config-tiedoston luominen ei onnistu automaattisesti. Config-tiedoston voi kuitenkin luoda myös manuaalisesti. seuraavien ohjeiden mukaan.</p>
+		<p>1. Navigoi tietokoneellesi kansioon ja mihin purit WordPress-asennuspaketin.</p>
+		<img src="config-sample.png" width="600" height="600">
+		<p>2. Etsi WordPress kansiosta "config-sample.php" niminen tiedosto ja avaa se tekstieditorissa.</p>
+		<img src="config-sample_inside.png" width="900" height="600">
+		<p>3. Täytä tiedot tiedostoon. </p>
+		<p>4. Nimeä tiedosto uusiksi "wp-config.php"</p>
+		<p>5. Lataa tiedosto palvelimellesi.</p>
 
 </body>
